@@ -1,27 +1,110 @@
-.item {
-  display: flex;
-  margin-bottom: 30px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lin</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
 
-.item img {
-  width: 150px;
-  height: auto;
-  margin-right: 20px;
-  border: 1px solid #ddd;
-}
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
 
-.item-content {
-  max-width: 600px;
-}
+    h2 {
+      font-size: 24px;
+      margin-top: 50px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
 
-.item-title {
-  font-weight: bold;
-  font-size: 16px;
-  margin-bottom: 5px;
-}
+    a {
+      color: #3366cc;
+      text-decoration: none;
+    }
 
-.item-meta {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 5px;
-}
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .pub-item {
+      display: flex;
+      margin-bottom: 30px;
+    }
+
+    .pub-item img {
+      width: 150px;
+      height: auto;
+      margin-right: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .pub-content {
+      max-width: 600px;
+    }
+
+    .pub-title {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    .pub-meta {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 5px;
+    }
+
+    .pub-meta strong {
+      color: #333;
+    }
+
+    .coming-soon {
+      color: #888;
+      font-style: italic;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lin</h1>
+
+  <p>
+    I'm passionate about creating visual and emotional connections through form and structure.  
+    My work explores the intersection of simplicity, emotion, and the quietness of ideas.
+  </p>
+
+  <!-- 📘 Publications Section -->
+  <h2>Publications</h2>
+
+  <div class="pub-item">
+    <img src="https://via.placeholder.com/150" alt="Paper thumbnail">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://ieeexplore.ieee.org/document/1234567" target="_blank">
+          A Poetic Algorithm for Spatial Drawing
+        </a>
+      </div>
+      <div class="pub-meta">
+        <strong>Lin</strong>, Coauthor — IEEE ICRA 2025
+        <a href="lin-icra2025.pdf" target="_blank">[PDF]</a>
+      </div>
+      <p>A motion planner that enables robotic arms to express abstract gestures.</p>
+    </div>
+  </div>
+
+  <!-- 🎨 Portfolio Section -->
+  <h2>Portfolio</h2>
+  <p class="coming-soon">Coming soon — selected works in form, color, and quiet rhythm.</p>
+
+</body>
+</html>
