@@ -29,41 +29,40 @@
     }
 
     .section {
-      margin-top: 40px;
+      margin-top: 50px;
     }
 
-    .pub {
+    .item {
       display: flex;
       margin-bottom: 30px;
     }
 
-    .pub img {
+    .item img {
       width: 150px;
       height: auto;
       margin-right: 20px;
+      border: 1px solid #ddd;
     }
 
-    .pub-content {
+    .item-content {
       max-width: 600px;
     }
 
-    .pub-title {
+    .item-title {
       font-weight: bold;
       margin-bottom: 5px;
     }
 
-    .pub-meta {
+    .item-meta {
       font-size: 14px;
       color: #666;
       margin-bottom: 5px;
     }
 
-    .links {
+    .coming-soon {
+      color: #888;
+      font-style: italic;
       margin-top: 10px;
-    }
-
-    .links a {
-      margin-right: 15px;
     }
   </style>
 </head>
@@ -76,28 +75,30 @@
     My work explores the intersection of simplicity, emotion, and the quietness of ideas.
   </p>
 
-  <div class="links">
-    <a href="#">CV</a> |
-    <a href="#">Portfolio</a> |
-    <a href="#">GitHub</a>
-  </div>
-
+  <!-- 📘 Publications Section -->
   <div class="section">
     <h2>Publications</h2>
 
-    <div class="pub">
-      <img src="https://via.placeholder.com/150" alt="Thumbnail">
-      <div class="pub-content">
-        <div class="pub-title">A Poetic Algorithm for Spatial Drawing</div>
-        <div class="pub-meta">Roy Lin, Some Coauthor — ICRA'25</div>
+    <div class="item">
+      <img src="https://via.placeholder.com/150" alt="Paper thumbnail">
+      <div class="item-content">
+        <div class="item-title">A Poetic Algorithm for Spatial Drawing</div>
+        <div class="item-meta">Roy Lin, Coauthor — IEEE ICRA 2025</div>
         <div class="links">
           <a href="#">PDF</a> • 
           <a href="#">Code</a>
         </div>
-        <p>A creative framework blending robotic movement with expressive mark-making.</p>
+        <p>A motion planner that enables robotic arms to express abstract gestures.</p>
       </div>
     </div>
 
+    <!-- More publications can go here -->
+  </div>
+
+  <!-- 🎨 Portfolio Section -->
+  <div class="section">
+    <h2>Portfolio</h2>
+    <p class="coming-soon">Coming soon — stay tuned for visual experiments, sketches, and selected works.</p>
   </div>
 
 </body>
